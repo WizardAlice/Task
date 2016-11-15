@@ -1,0 +1,51 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.8;
+    background-color: #0d0d0d;
+    margin: 30px;
+    padding: 30px;
+}
+
+#banner#container.toubu{
+    background-color:#66afe9! important;
+    height: 400px;
+    display: inline;
+    background-color: transparent;
+    background-image: url(../img/01.jpg);
+}
+#banner#container#header#logo{
+     float: left;
+ }
+
+.flexslider {
+  margin: 0 auto;
+  width: 1000px; }
+  .slides {
+    position: relative;
+    width: 1000px;
+    height: 370px; }
+    .slides.hover-in {
+      transition: .3s ease-out; }
+    .slides.hover-out {
+      transition: .3s ease-in; }
+  .flexslider [class*="layer"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px; }
+  .flexslider .layer-1 {
+    background-size: cover;
+      -webkit-transform: translateZ(10px);
+      transform: translateZ(10px);}
+  .flexslider .layer-2 {
+    background-size: cover;
+    -webkit-transform: translateZ(10px);
+            transform: translateZ(10px); }
+  .flexslider .layer-3 {
+    background-size: cover;
+    -webkit-transform: translateZ(10px);
+            transform: translateZ(10px); }
+  .flexslider .shine {
+    border-radius: 10px; }
